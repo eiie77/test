@@ -13,7 +13,7 @@ public class HelloController { //클래스 이름과 파일명 맞추기
 	@RequestMapping("/")
 //spring처럼 @RequestMapping(value="/", method=RequestMethod.GET) 이렇게 쓸 수도 있음
 	public String Hello() {
-		return "Hello world! 헬로우! 안녕!<br/>ㅎㅇㅎㅇ";
+		return "Hello world! 헬로우! 안녕!<br/>ㅎㅇㅎㅇ 너무 어려워!!!";
 	}
 	
 }
